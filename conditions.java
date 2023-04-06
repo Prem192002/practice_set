@@ -1,5 +1,5 @@
 import java.util.Scanner;
-import java.util.Scanner;
+
 
 public class conditions {
 
@@ -7,13 +7,15 @@ public class conditions {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter the number");
-        int num = sc.nextInt();
+        System.out.println("Enter the age");
+        int age = sc.nextInt();
 
-        if(num%2==0){
-            System.out.println("the number is even");
+        if(age<12){
+            System.out.println("childhood");
+        }else if(age>12 && age<18){
+            System.out.println("teenage");
         }else{
-            System.out.println("the number is odd");
+            System.out.println("Adult");
         }
 
 
