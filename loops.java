@@ -8,12 +8,15 @@ public class loops {
         int num = sc.nextInt();
 
         int n = 1;
+        int sum = 0;
         
         while (n<=num) {
-            System.out.println(n);
+            sum = sum+n;
+            
             n=n+1;
             
         }
+        System.out.println(sum);
 
     }
     
