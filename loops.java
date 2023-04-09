@@ -7,15 +7,12 @@ public class loops {
         System.out.println("Enter the number");
         int num = sc.nextInt();
 
-        int n = 1;
         int sum = 0;
-        
-        while (n<=num) {
+        for (int n=1;n<=num;n=n+1) {
             sum = sum+n;
             
-            n=n+1;
-            
         }
+        
         System.out.println(sum);
 
     }
