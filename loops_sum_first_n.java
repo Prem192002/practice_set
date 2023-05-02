@@ -11,12 +11,12 @@ class loops_sum_first_n {
 
         int a = sc.nextInt();
         
-        int sum = 0;
+        int sum = 1;
 
-        for(int num = a; num>=0 ;num=num-1) {
+        for(int num = a; num>=1 ;num=num-1) {
             
             
-            sum = sum+num;
+            sum = sum*num;
 
            
         
