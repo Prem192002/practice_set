@@ -12,7 +12,7 @@ public class conditions {
 
         if(age<12){
             System.out.println("childhood");
-        }else if(age>12 || age<18){
+        }else if(age>12 && age<18){
             System.out.println("teenage");
         }else{
             System.out.println("Adult");
