@@ -6,14 +6,17 @@ public class trial {
         System.out.println("Enter the number:");
         int num = sc.nextInt();
 
-        int count = 0;
+        int sum = 0;
+        
         while (num>0){
+            
+            int remain = num%10;
             num = num/10;
-            count++;
+            sum = sum+remain;
 
         }
 
-        System.out.println(count);
+        System.out.println(sum);
     }
     
 }
