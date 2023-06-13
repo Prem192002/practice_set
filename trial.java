@@ -6,10 +6,12 @@ public class trial {
         System.out.println("Enter the number:");
         int num = sc.nextInt();
 
+        int sum = 0;
         for (int i=0;i<=num;i=i+1){
-
-            System.out.println(i);
+            sum = sum+i;
+            
         }
+        System.out.println(sum);
 
        
 
