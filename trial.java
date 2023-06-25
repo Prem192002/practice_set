@@ -8,6 +8,6 @@ public class trial{
 public static void main(String[] args){
 
         addition obj1 = new addition();
-        System.out.println(obj1.add(10,5));
+        System.out.println(obj1.add(20,5));
         }
 }
