@@ -8,7 +8,7 @@ public class loops {
         int num = sc.nextInt();
 
         
-        for (int n=1;n<=num;n++) {
+        for (int n=1;n<=num;n=n+2) {
             System.out.println(n);
             
         }
