@@ -12,7 +12,7 @@ class addition {
         
 
         addition obj1 = new addition();
-        int res = obj1.addt(2,3);
+        int res = obj1.addt(3,3);
         System.out.println(res);
         
     }
