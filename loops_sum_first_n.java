@@ -16,7 +16,7 @@ class loops_sum_first_n {
         for(int num = a; num>=1 ;num=num-1) {
             
             
-            sum = sum+num;
+            sum = sum*num;
 
            
         
