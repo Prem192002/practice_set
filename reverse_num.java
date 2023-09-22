@@ -1,4 +1,5 @@
 import java.util.Scanner;
+// ex . 52 = 25 
 public class reverse_num {
 
     public static void main(String[] args){
@@ -15,7 +16,7 @@ public class reverse_num {
         }
 
         System.out.println(ans);
-
+z
 
     }
     
