@@ -2,18 +2,14 @@ import java.util.*;
 
 public class test {
     public static void main(String args[]) {
-        Scanner obj1 = new Scanner(System.in);
-        System.out.println("Enter the base number:");
-        int bace = obj1.nextInt();
-        System.out.println("Enter the power number:");
-        int pow = obj1.nextInt();
-
-        int ans = 1;
-        for (int i = 0; i < pow; i = i + 1) {
-            ans = ans * bace;
+        Scanner obj = new Scanner(System.in);
+        System.out.println("Enter the number:");
+        int num = obj.nextInt();
+        int sum = 0;
+        for(int i = 0; i<=num; i++){
+            sum = sum+i;
         }
-        System.out.println(ans);
-
+        System.out.println(sum);
     }
 
 }
